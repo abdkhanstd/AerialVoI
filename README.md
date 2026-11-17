@@ -2,8 +2,8 @@
 
 Code and run-level results for the paper
 
-> **How much aerial information does a dedicated-lane decision for connected automated vehicles need? A
-> value-of-information study with UAV and helicopter data**
+> **Value of aerial remote sensing for dedicated-lane decisions for connected automated vehicles: traffic volumes
+> and downstream queues matter more than calibrated driving behaviour**
 
 The study asks which layers of an aerial (UAV or helicopter) traffic survey are needed to decide whether, and where,
 to open a dedicated lane (DL) for connected automated vehicles (CAVs) in mixed traffic.
