@@ -1,7 +1,12 @@
-# AerialVoI: value of aerial traffic information for dedicated-lane decisions
+# AerialVoI
 
-Code and run-level results for a study of which layers of an aerial (UAV or helicopter) traffic survey are needed to
-decide whether, and where, to open a dedicated lane (DL) for connected automated vehicles (CAVs) in mixed traffic.
+Code and run-level results for the paper
+
+> **How much aerial information does a dedicated-lane decision for connected automated vehicles need? A
+> value-of-information study with UAV and helicopter data**
+
+The study asks which layers of an aerial (UAV or helicopter) traffic survey are needed to decide whether, and where,
+to open a dedicated lane (DL) for connected automated vehicles (CAVs) in mixed traffic.
 
 Two aerially recorded sites are rebuilt in SUMO 1.24: an urban arterial junction (site A) and a freeway weaving section
 (site B). Planner models that use progressively more of the survey (imagery only, observed volumes, movement counts
