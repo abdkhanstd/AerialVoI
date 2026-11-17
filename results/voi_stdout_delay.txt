@@ -1,0 +1,386 @@
+===== B|A oracle 136.2 comparisons 30
+               AB1_deploy  AB1_place  AB1e_deploy  AB1e_place  AB1g_deploy  AB1g_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0F_deploy  G0F_place  G0H_deploy  G0H_place  G0Hq_deploy  G0Hq_place  G0V_deploy  G0V_place  G0Vq_deploy  G0Vq_place  G0_deploy  G0_place  G_deploy  G_place    full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy       21.08      31.54        21.26       30.33         2.49       30.24        2.81      27.29      1.21    28.05      2.72     30.9        5.82      34.28       21.78      35.24         5.18       33.03       12.78      35.62         4.08       32.71      16.31     42.98      2.17     32.0  103.66    57.65   6.63            0.0          25.0      19.66
+regret_place        -3.92       6.54        -3.74        5.33       -22.51        5.24      -22.19       2.29    -23.79     3.06    -22.28      5.9      -19.18       9.28       -3.21      10.24       -19.81        8.03      -12.22      10.62       -20.92        7.71      -8.69     17.98    -22.83      7.0   78.67    32.66 -18.37          -25.0           0.0      -5.33
+  deploy:G0-G0V                 3.53 [ -7.75, 14.34] holm=1 mdd=15.90
+  deploy:G0V-G                 10.61 [  3.38, 19.30] holm=0.563 mdd=11.54
+  deploy:G0H-G                 19.62 [ 10.54, 29.84] holm=0.00163 mdd=13.85
+  deploy:G0F-G                  3.65 [  0.83,  7.26] holm=0.197 mdd=4.58
+  deploy:G-C                   -0.55 [ -1.53,  0.34] holm=1 mdd=1.33
+  deploy:C-B                    1.51 [  0.73,  2.42] holm=0.00791 mdd=1.21 floor
+  deploy:AB2-B                  1.60 [  0.91,  2.41] holm=0.000262 mdd=1.09 floor
+  deploy:AB1-B                 19.87 [ 11.58, 28.94] holm=0.000506 mdd=12.41 floor
+  deploy:AB1-C                 18.36 [  9.66, 27.87] holm=0.026 mdd=12.93
+  deploy:AB1g-B                 1.28 [  0.52,  2.16] holm=0.026 mdd=1.17 floor
+  deploy:AB1e-B                20.05 [ 12.39, 28.26] holm=3.77e-05 mdd=11.42 floor
+  deploy:G-never               -4.46 [ -5.85, -3.09] holm=3.77e-05 mdd=1.97
+  deploy:C-never               -3.91 [ -5.43, -2.53] holm=0.00016 mdd=2.08
+  deploy:B-never               -5.42 [ -6.69, -4.20] holm=1.86e-07 mdd=1.79 floor
+  deploy:G-threshold          -17.50 [-21.98,-13.18] holm=1.45e-07 mdd=6.28
+  deploy:C-threshold          -16.94 [-21.62,-12.51] holm=1.01e-07 mdd=6.47
+  deploy:B-threshold          -18.46 [-22.89,-14.20] holm=5.59e-08 mdd=6.18 floor
+  deploy:AB1-threshold          1.41 [ -8.63, 12.22] holm=1 mdd=14.98
+  deploy:G0H-threshold          2.12 [ -8.30, 13.52] holm=1 mdd=15.60
+  place:G0-G0V                  7.36 [  2.97, 11.74] holm=0.0529 mdd=6.27
+  place:G0V-G                   3.61 [  0.03,  7.67] holm=1 mdd=5.45
+  place:G0H-G                   3.24 [  0.38,  6.57] holm=1 mdd=4.41
+  place:G0F-G                   2.28 [ -0.23,  5.24] holm=1 mdd=3.94
+  place:G-C                     1.10 [ -1.07,  3.16] holm=1 mdd=3.00
+  place:C-B                     2.84 [  1.20,  4.46] holm=0.0175 mdd=2.32 floor
+  place:AB2-B                  -0.76 [ -1.88,  0.25] holm=1 mdd=1.52 floor
+  place:AB1-B                   3.48 [  1.93,  5.02] holm=0.00101 mdd=2.23 floor
+  place:B-georule             -29.60 [-34.20,-24.91] holm=5.59e-08 mdd=6.63 floor
+  place:G0-georule            -14.68 [-18.85,-10.71] holm=3.13e-06 mdd=5.78
+  place:B-full                -75.61 [-82.70,-68.40] holm=5.59e-08 mdd=10.17 floor
+  extra deploy:C-AB2           -0.09 [ -0.73,  0.58] p=0.787 eq2=True
+  extra deploy:G0V-G0Vq         8.70 [  2.08, 16.72] p=0.353 eq2=False
+  extra deploy:G0H-G0Hq        16.60 [  7.92, 26.22] p=0.00309 eq2=False
+  extra deploy:G0Vq-G           1.91 [  0.62,  3.38] p=0.00434 eq2=False
+  extra deploy:G0Hq-G           3.02 [  1.40,  4.89] p=0.000556 eq2=False
+  extra deploy:G0V-threshold   -6.88 [-15.18,  2.78] p=0.0164 eq2=False
+  extra deploy:G0Vq-never      -2.55 [ -4.18, -0.89] p=0.0123 eq2=False
+  extra deploy:G0Hq-never      -1.44 [ -3.62,  0.93] p=0.129 eq2=False
+  extra deploy:G0Vq-threshold  -15.58 [-19.76,-11.66] p=3.73e-09 eq2=False
+  extra deploy:G0Hq-threshold  -14.48 [-19.11,-10.00] p=4.71e-07 eq2=False
+  extra place:C-AB2             3.61 [  2.11,  5.21] p=3.93e-06 eq2=False
+  extra place:G0V-G0Vq          2.91 [  0.04,  6.61] p=0.21 eq2=False
+  extra place:G0H-G0Hq          2.21 [ -0.26,  4.91] p=0.245 eq2=False
+  extra place:G0Vq-G            0.71 [ -1.71,  3.66] p=0.516 eq2=False
+  extra place:G0Hq-G            1.03 [ -0.94,  3.16] p=0.516 eq2=False
+  extra place:G0Vq-georule    -24.94 [-29.88,-19.91] p=3.73e-09 eq2=False
+  extra place:G0Hq-georule    -24.62 [-29.52,-19.75] p=3.73e-09 eq2=False
+===== B|B oracle 58.2 comparisons 19
+               AB1_deploy  AB1_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0_deploy  G0_place  G_deploy  G_place   full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy       16.58      52.53        0.01      51.16      0.16    51.02      0.01    52.71       0.01     52.19      0.01    52.59  51.88    51.55   0.01           0.00         47.34      18.57
+regret_place       -30.76       5.19      -47.33       3.81    -47.19     3.68    -47.33     5.36     -47.33      4.85    -47.33     5.25   4.53     4.21 -47.33         -47.34          0.00     -28.77
+  deploy:G-C                    0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-B                   -0.14 [ -0.39,  0.00] holm=1 mdd=0.30 floor
+  deploy:AB2-B                 -0.14 [ -0.39,  0.00] holm=1 mdd=0.30 floor
+  deploy:AB1-B                 16.43 [  7.30, 27.31] holm=0.00916 mdd=14.28 floor
+  deploy:AB1-C                 16.57 [  7.42, 27.41] holm=0.00391 mdd=14.23
+  deploy:G-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:B-never                0.14 [  0.00,  0.39] holm=1 mdd=0.30 floor
+  deploy:G-threshold          -18.56 [-28.27, -9.98] holm=3.62e-05 mdd=13.06
+  deploy:C-threshold          -18.56 [-28.27, -9.98] holm=3.62e-05 mdd=13.06
+  deploy:B-threshold          -18.42 [-28.15, -9.80] holm=6.48e-05 mdd=13.11 floor
+  deploy:AB1-threshold         -1.99 [-10.26,  7.15] holm=1 mdd=12.46
+  place:G-C                    -0.11 [ -0.74,  0.47] holm=1 mdd=0.87
+  place:C-B                     1.68 [ -0.06,  3.72] holm=1 mdd=2.73 floor
+  place:AB2-B                   0.13 [ -1.22,  1.70] holm=1 mdd=2.07 floor
+  place:AB1-B                   1.51 [ -0.14,  3.37] holm=1 mdd=2.52 floor
+  place:B-georule              -0.53 [ -2.16,  0.89] holm=1 mdd=2.21 floor
+  place:G0-georule              0.64 [ -0.86,  1.99] holm=1 mdd=2.03
+  place:B-full                 -0.85 [ -2.01,  0.33] holm=1 mdd=1.68 floor
+  extra deploy:C-AB2            0.00 [  0.00,  0.00] p=1 eq2=True
+  extra place:C-AB2             1.55 [ -0.21,  3.86] p=0.182 eq2=False
+===== B2|A oracle 143.3 comparisons 30
+               AB1_deploy  AB1_place  AB1e_deploy  AB1e_place  AB1g_deploy  AB1g_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0F_deploy  G0F_place  G0H_deploy  G0H_place  G0Hq_deploy  G0Hq_place  G0V_deploy  G0V_place  G0Vq_deploy  G0Vq_place  G0_deploy  G0_place  G_deploy  G_place    full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy       22.18      32.67        22.53       31.27         1.35       30.93        0.62      28.33      2.63    29.22      0.93    31.24        5.16      35.10       22.24      37.63         6.39       35.67       12.73      38.12         4.55       35.29      16.99     44.64      2.92    33.02  112.08    63.49   0.97           0.00         26.18      19.48
+regret_place        -4.00       6.49        -3.66        5.09       -24.83        4.75      -25.56       2.14    -23.55     3.04    -25.25     5.06      -21.03       8.92       -3.94      11.44       -19.79        9.49      -13.45      11.93       -21.63        9.10      -9.19     18.46    -23.26     6.83   85.90    37.31 -25.21         -26.18          0.00      -6.71
+  deploy:G0-G0V                 4.26 [ -5.97, 14.37] holm=0.916 mdd=14.64
+  deploy:G0V-G                  9.80 [  2.32, 18.90] holm=1 mdd=11.99
+  deploy:G0H-G                 19.32 [  9.84, 29.76] holm=0.0404 mdd=14.23
+  deploy:G0F-G                  2.23 [ -1.57,  7.09] holm=1 mdd=6.27
+  deploy:G-C                    2.00 [  0.78,  3.70] holm=0.00658 mdd=2.13
+  deploy:C-B                   -1.70 [ -3.11, -0.58] holm=0.0404 mdd=1.82
+  deploy:AB2-B                 -2.00 [ -3.37, -0.90] holm=0.000805 mdd=1.77 floor
+  deploy:AB1-B                 19.55 [ 11.33, 28.54] holm=0.00157 mdd=12.41
+  deploy:AB1-C                 21.25 [ 13.31, 30.02] holm=3.41e-05 mdd=12.00
+  deploy:AB1g-B                -1.28 [ -2.71, -0.07] holm=0.806 mdd=1.90
+  deploy:AB1e-B                19.90 [ 12.62, 27.62] holm=0.000102 mdd=10.82
+  deploy:G-never                1.95 [  0.56,  3.69] holm=0.21 mdd=2.27
+  deploy:C-never               -0.05 [ -0.67,  0.52] holm=1 mdd=0.86
+  deploy:B-never                1.65 [  0.32,  3.17] holm=0.388 mdd=2.03
+  deploy:G-threshold          -16.55 [-21.87,-11.30] holm=0.000123 mdd=7.50
+  deploy:C-threshold          -18.55 [-23.87,-13.24] holm=3.09e-05 mdd=7.54
+  deploy:B-threshold          -16.85 [-21.92,-11.78] holm=0.000184 mdd=7.20
+  deploy:AB1-threshold          2.70 [ -8.57, 14.89] holm=1 mdd=16.88
+  deploy:G0H-threshold          2.76 [ -8.87, 15.51] holm=1 mdd=17.75
+  place:G0-G0V                  6.53 [  2.47, 10.61] holm=0.0388 mdd=5.81
+  place:G0V-G                   5.10 [  1.15,  9.73] holm=0.806 mdd=6.21
+  place:G0H-G                   4.61 [  1.41,  8.31] holm=0.806 mdd=4.95
+  place:G0F-G                   2.09 [ -0.07,  4.61] holm=1 mdd=3.35
+  place:G-C                     1.78 [  0.15,  3.39] holm=0.727 mdd=2.32
+  place:C-B                     2.02 [  0.32,  3.93] holm=1 mdd=2.63
+  place:AB2-B                  -0.89 [ -1.78,  0.00] holm=0.21 mdd=1.27 floor
+  place:AB1-B                   3.45 [  1.52,  5.46] holm=0.0991 mdd=2.85
+  place:B-georule             -34.27 [-39.91,-28.34] holm=5.59e-08 mdd=8.18
+  place:G0-georule            -18.85 [-23.82,-14.45] holm=5.59e-08 mdd=6.71
+  place:B-full                -82.86 [-92.22,-73.31] holm=5.59e-08 mdd=13.47
+  extra deploy:C-AB2            0.30 [ -0.10,  0.72] p=0.127 eq2=True floor
+  extra deploy:G0V-G0Vq         8.18 [  1.98, 15.63] p=0.0079 eq2=False
+  extra deploy:G0H-G0Hq        15.85 [  7.34, 25.28] p=0.0115 eq2=False
+  extra deploy:G0Vq-G           1.63 [ -0.34,  4.00] p=0.9 eq2=False
+  extra deploy:G0Hq-G           3.46 [  1.33,  5.83] p=0.00964 eq2=False
+  extra deploy:G0V-threshold   -6.75 [-16.30,  4.37] p=0.0364 eq2=False
+  extra deploy:G0Vq-never       3.58 [  1.36,  6.07] p=0.0163 eq2=False
+  extra deploy:G0Hq-never       5.41 [  3.15,  7.91] p=1.59e-05 eq2=False
+  extra deploy:G0Vq-threshold  -14.92 [-20.38, -9.28] p=4.41e-05 eq2=False
+  extra deploy:G0Hq-threshold  -13.09 [-18.30, -7.90] p=0.000209 eq2=False
+  extra place:C-AB2             2.91 [  1.28,  4.68] p=0.0039 eq2=False floor
+  extra place:G0V-G0Vq          2.83 [ -0.37,  6.79] p=0.202 eq2=False
+  extra place:G0H-G0Hq          1.96 [ -0.64,  5.18] p=0.937 eq2=False
+  extra place:G0Vq-G            2.27 [ -0.07,  4.88] p=0.135 eq2=False
+  extra place:G0Hq-G            2.65 [  0.66,  4.70] p=0.0137 eq2=False
+  extra place:G0Vq-georule    -28.20 [-33.95,-22.48] p=1.86e-09 eq2=False
+  extra place:G0Hq-georule    -27.82 [-33.50,-22.10] p=1.86e-09 eq2=False
+===== B2|B oracle 76.1 comparisons 19
+               AB1_deploy  AB1_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0_deploy  G0_place  G_deploy  G_place   full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy       16.45      53.27        0.25      53.64      0.50    52.25      0.25    53.72       0.25     53.31      0.25    53.41  52.98    52.06   0.25           0.00         49.46      19.69
+regret_place       -33.00       3.81      -49.21       4.18    -48.95     2.79    -49.21     4.27     -49.21      3.86    -49.21     3.95   3.53     2.61 -49.21         -49.46          0.00     -29.76
+  deploy:G-C                    0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-B                   -0.26 [ -0.75,  0.00] holm=1 mdd=0.63
+  deploy:AB2-B                 -0.26 [ -0.75,  0.00] holm=1 mdd=0.63
+  deploy:AB1-B                 15.95 [  7.02, 26.53] holm=0.0128 mdd=13.94
+  deploy:AB1-C                 16.21 [  7.36, 26.71] holm=0.00391 mdd=13.85
+  deploy:G-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:B-never                0.26 [  0.00,  0.75] holm=1 mdd=0.63
+  deploy:G-threshold          -19.45 [-29.13,-10.76] holm=3.62e-05 mdd=13.18
+  deploy:C-threshold          -19.45 [-29.13,-10.76] holm=3.62e-05 mdd=13.18
+  deploy:B-threshold          -19.19 [-28.97,-10.42] holm=9.73e-05 mdd=13.27
+  deploy:AB1-threshold         -3.24 [-11.81,  5.93] holm=0.986 mdd=12.68
+  place:G-C                    -0.32 [ -1.09,  0.34] holm=1 mdd=1.03
+  place:C-B                     1.48 [  0.02,  3.12] holm=1 mdd=2.20
+  place:AB2-B                   1.39 [  0.11,  2.92] holm=0.986 mdd=2.01
+  place:AB1-B                   1.02 [ -0.26,  2.43] holm=1 mdd=1.92
+  place:B-georule               0.19 [ -1.24,  1.51] holm=1 mdd=1.98
+  place:G0-georule              1.25 [  0.13,  2.31] holm=0.25 mdd=1.56
+  place:B-full                 -0.73 [ -2.06,  0.55] holm=1 mdd=1.84
+  extra deploy:C-AB2            0.00 [  0.00,  0.00] p=1 eq2=True
+  extra place:C-AB2             0.08 [ -0.92,  1.17] p=0.525 eq2=True
+===== R3|A oracle 103.7 comparisons 30
+               AB1_deploy  AB1_place  AB1e_deploy  AB1e_place  AB1g_deploy  AB1g_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0F_deploy  G0F_place  G0H_deploy  G0H_place  G0Hq_deploy  G0Hq_place  G0V_deploy  G0V_place  G0Vq_deploy  G0Vq_place  G0_deploy  G0_place  G_deploy  G_place    full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy        5.26       8.96         4.56        7.81         3.52        7.44        4.68       8.70      3.46     8.85      4.33     8.73        4.96      10.29        6.13      12.82         6.45       11.36        5.63      13.40         5.57       10.50      14.91     19.94      4.04     9.24  121.14    54.73   8.25           0.00          4.28      22.08
+regret_place         0.98       4.69         0.29        3.54        -0.76        3.16        0.41       4.42     -0.82     4.58      0.06     4.45        0.69       6.02        1.85       8.54         2.18        7.09        1.35       9.13         1.30        6.22      10.63     15.67     -0.24     4.96  116.86    50.45   3.97          -4.28          0.00      17.81
+  deploy:G0-G0V                 9.28 [  5.06, 14.00] holm=0.00725 mdd=6.36
+  deploy:G0V-G                  1.59 [ -0.10,  3.35] holm=0.731 mdd=2.49
+  deploy:G0H-G                  2.09 [ -0.56,  4.77] holm=1 mdd=3.77
+  deploy:G0F-G                  0.92 [ -0.53,  2.36] holm=1 mdd=2.06
+  deploy:G-C                   -0.29 [ -1.43,  0.84] holm=1 mdd=1.63
+  deploy:C-B                    0.87 [ -0.22,  1.96] holm=0.441 mdd=1.56
+  deploy:AB2-B                  1.22 [  0.07,  2.35] holm=0.173 mdd=1.63
+  deploy:AB1-B                  1.80 [  0.65,  3.09] holm=0.125 mdd=1.75
+  deploy:AB1-C                  0.92 [ -0.48,  2.42] holm=1 mdd=2.08
+  deploy:AB1g-B                 0.06 [ -0.86,  0.95] holm=1 mdd=1.28
+  deploy:AB1e-B                 1.11 [ -0.27,  2.44] holm=1 mdd=1.93
+  deploy:G-never               -4.21 [ -6.01, -2.29] holm=0.00641 mdd=2.67
+  deploy:C-never               -3.91 [ -5.26, -2.61] holm=0.000175 mdd=1.92
+  deploy:B-never               -4.79 [ -6.36, -3.14] holm=0.0005 mdd=2.33
+  deploy:G-threshold          -18.04 [-23.64,-12.91] holm=3.13e-06 mdd=7.69
+  deploy:C-threshold          -17.75 [-23.48,-12.60] holm=4.66e-07 mdd=7.86
+  deploy:B-threshold          -18.63 [-23.98,-13.66] holm=2.42e-07 mdd=7.43
+  deploy:AB1-threshold        -16.83 [-22.31,-12.02] holm=5.59e-08 mdd=7.33
+  deploy:G0H-threshold        -15.96 [-22.41, -9.95] holm=0.000233 mdd=8.88
+  place:G0-G0V                  6.54 [  2.37, 10.54] holm=0.0402 mdd=5.83
+  place:G0V-G                   4.16 [  0.54,  8.23] holm=1 mdd=5.54
+  place:G0H-G                   3.58 [  0.78,  6.36] holm=0.149 mdd=4.01
+  place:G0F-G                   1.05 [ -1.43,  3.74] holm=1 mdd=3.73
+  place:G-C                     0.51 [ -1.25,  2.40] holm=1 mdd=2.63
+  place:C-B                    -0.12 [ -1.22,  0.97] holm=1 mdd=1.57
+  place:AB2-B                  -0.16 [ -1.05,  0.76] holm=1 mdd=1.30
+  place:AB1-B                   0.11 [ -0.97,  1.20] holm=1 mdd=1.55
+  place:B-georule             -45.88 [-52.22,-38.77] holm=5.59e-08 mdd=9.59
+  place:G0-georule            -34.79 [-40.13,-29.15] holm=5.59e-08 mdd=7.84
+  place:B-full               -112.29 [-121.01,-102.15] holm=5.59e-08 mdd=13.35
+  extra deploy:C-AB2           -0.35 [ -1.03,  0.23] p=0.635 eq2=True
+  extra deploy:G0V-G0Vq         0.06 [ -0.75,  0.76] p=0.459 eq2=True
+  extra deploy:G0H-G0Hq        -0.33 [ -2.45,  2.00] p=0.634 eq2=False
+  extra deploy:G0Vq-G           1.53 [ -0.21,  3.28] p=0.0526 eq2=False
+  extra deploy:G0Hq-G           2.41 [  0.80,  4.07] p=0.0115 eq2=False
+  extra deploy:G0V-threshold  -16.46 [-22.46,-10.97] p=2.55e-07 eq2=False
+  extra deploy:G0Vq-never      -2.68 [ -4.27, -1.20] p=0.00214 eq2=False
+  extra deploy:G0Hq-never      -1.79 [ -3.29, -0.08] p=0.00271 eq2=False
+  extra deploy:G0Vq-threshold  -16.51 [-22.67,-10.81] p=8.33e-07 eq2=False
+  extra deploy:G0Hq-threshold  -15.63 [-21.66,-10.09] p=8.01e-08 eq2=False
+  extra place:C-AB2             0.03 [ -0.67,  0.73] p=0.726 eq2=True
+  extra place:G0V-G0Vq          2.90 [  0.36,  6.24] p=0.0264 eq2=False
+  extra place:G0H-G0Hq          1.45 [ -1.02,  4.68] p=0.797 eq2=False
+  extra place:G0Vq-G            1.26 [ -1.67,  4.28] p=0.452 eq2=False
+  extra place:G0Hq-G            2.13 [  0.00,  4.14] p=0.0327 eq2=False
+  extra place:G0Vq-georule    -44.23 [-50.49,-37.26] p=1.86e-09 eq2=False
+  extra place:G0Hq-georule    -43.36 [-49.36,-36.61] p=1.86e-09 eq2=False
+===== R3|B oracle 80.6 comparisons 19
+               AB1_deploy  AB1_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0_deploy  G0_place  G_deploy  G_place   full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy       17.74      56.85        0.30      55.78      0.69    56.35      0.30    56.10       0.30     56.70      0.30    56.82  56.23    56.77   0.30           0.00         51.75      20.73
+regret_place       -34.01       5.10      -51.45       4.03    -51.06     4.60    -51.45     4.35     -51.45      4.95    -51.45     5.07   4.48     5.02 -51.45         -51.75          0.00     -31.02
+  deploy:G-C                    0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-B                   -0.39 [ -1.10,  0.00] holm=1 mdd=0.87
+  deploy:AB2-B                 -0.39 [ -1.10,  0.00] holm=1 mdd=0.87
+  deploy:AB1-B                 17.05 [  7.51, 28.09] holm=0.0183 mdd=14.71
+  deploy:AB1-C                 17.44 [  8.07, 28.40] holm=0.00781 mdd=14.57
+  deploy:G-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:B-never                0.39 [  0.00,  1.10] holm=1 mdd=0.87
+  deploy:G-threshold          -20.43 [-30.25,-11.46] holm=7.25e-05 mdd=13.37
+  deploy:C-threshold          -20.43 [-30.25,-11.46] holm=7.25e-05 mdd=13.37
+  deploy:B-threshold          -20.04 [-29.97,-10.85] holm=0.000811 mdd=13.54
+  deploy:AB1-threshold         -2.99 [-12.21,  6.86] holm=1 mdd=13.67
+  place:G-C                     0.72 [  0.21,  1.27] holm=0.21 mdd=0.77
+  place:C-B                    -0.25 [ -1.68,  1.16] holm=1 mdd=2.01
+  place:AB2-B                  -0.57 [ -1.91,  0.69] holm=1 mdd=1.87
+  place:AB1-B                   0.50 [ -1.54,  2.58] holm=1 mdd=2.94
+  place:B-georule              -0.42 [ -1.83,  1.08] holm=1 mdd=2.07
+  place:G0-georule             -0.07 [ -1.34,  1.19] holm=1 mdd=1.80
+  place:B-full                  0.12 [ -1.76,  1.92] holm=1 mdd=2.63
+  extra deploy:C-AB2            0.00 [  0.00,  0.00] p=1 eq2=True
+  extra place:C-AB2             0.31 [ -1.06,  1.94] p=0.731 eq2=True
+===== R4|A oracle 88.9 comparisons 30
+               AB1_deploy  AB1_place  AB1e_deploy  AB1e_place  AB1g_deploy  AB1g_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0F_deploy  G0F_place  G0H_deploy  G0H_place  G0Hq_deploy  G0Hq_place  G0V_deploy  G0V_place  G0Vq_deploy  G0Vq_place  G0_deploy  G0_place  G_deploy  G_place    full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy       11.16      22.05        12.56       21.12         1.53       21.74        1.21      21.56      3.26    22.84      0.80    20.98        1.82      23.84       12.41      27.95         6.32       25.52        8.43      28.23         4.85       24.77      17.09     33.28      3.08    22.85  137.49    71.82   1.08           0.00         17.58      29.16
+regret_place        -6.42       4.47        -5.02        3.54       -16.06        4.16      -16.38       3.97    -14.33     5.26    -16.78     3.39      -15.76       6.26       -5.18      10.36       -11.27        7.93       -9.15      10.65       -12.73        7.18      -0.49     15.70    -14.50     5.26  119.90    54.24 -16.51         -17.58          0.00      11.58
+  deploy:G0-G0V                 8.66 [  1.69, 15.87] holm=0.166 mdd=10.25
+  deploy:G0V-G                  5.35 [  0.74, 10.80] holm=1 mdd=7.24
+  deploy:G0H-G                  9.32 [  4.06, 14.91] holm=0.114 mdd=7.79
+  deploy:G0F-G                 -1.26 [ -3.02,  0.28] holm=1 mdd=2.38
+  deploy:G-C                    2.28 [  0.99,  3.90] holm=0.00902 mdd=2.10
+  deploy:C-B                   -2.45 [ -4.01, -1.16] holm=0.00237 mdd=2.04
+  deploy:AB2-B                 -2.05 [ -3.67, -0.72] holm=0.0453 mdd=2.10
+  deploy:AB1-B                  7.91 [  4.19, 11.77] holm=0.0111 mdd=5.40
+  deploy:AB1-C                 10.36 [  6.84, 13.98] holm=2.13e-05 mdd=5.03
+  deploy:AB1g-B                -1.73 [ -3.35, -0.37] holm=0.316 mdd=2.15
+  deploy:AB1e-B                 9.30 [  5.69, 12.90] holm=0.000864 mdd=5.16
+  deploy:G-never                2.01 [  0.39,  3.81] holm=0.316 mdd=2.47
+  deploy:C-never               -0.28 [ -1.15,  0.48] holm=1 mdd=1.18
+  deploy:B-never                2.18 [  0.58,  3.92] holm=0.0897 mdd=2.38
+  deploy:G-threshold          -26.08 [-35.75,-16.76] holm=6.91e-05 mdd=13.47
+  deploy:C-threshold          -28.36 [-37.92,-19.13] holm=1.04e-07 mdd=13.40
+  deploy:B-threshold          -25.91 [-35.27,-16.98] holm=0.000292 mdd=13.01
+  deploy:AB1-threshold        -18.00 [-28.52, -7.84] holm=0.0852 mdd=14.82
+  deploy:G0H-threshold        -16.75 [-28.67, -5.15] holm=0.384 mdd=17.02
+  place:G0-G0V                  5.05 [  0.60,  9.05] holm=0.0295 mdd=6.10
+  place:G0V-G                   5.39 [  1.20, 10.10] holm=1 mdd=6.43
+  place:G0H-G                   5.10 [  1.92,  8.48] holm=0.214 mdd=4.69
+  place:G0F-G                   0.99 [ -1.25,  3.70] holm=1 mdd=3.56
+  place:G-C                     1.87 [  0.34,  3.59] holm=0.533 mdd=2.34
+  place:C-B                    -1.87 [ -3.67, -0.20] holm=0.773 mdd=2.49
+  place:AB2-B                  -1.28 [ -2.42, -0.34] holm=0.416 mdd=1.49
+  place:AB1-B                  -0.79 [ -2.42,  0.70] holm=1 mdd=2.21
+  place:B-georule             -48.98 [-56.37,-40.70] holm=1.04e-07 mdd=11.18
+  place:G0-georule            -38.54 [-44.59,-31.96] holm=5.59e-08 mdd=9.05
+  place:B-full               -114.64 [-125.98,-101.82] holm=5.59e-08 mdd=17.18
+  extra deploy:C-AB2           -0.41 [ -0.92,  0.02] p=0.191 eq2=True
+  extra deploy:G0V-G0Vq         3.58 [  0.78,  6.91] p=0.0984 eq2=False
+  extra deploy:G0H-G0Hq         6.09 [  2.04, 10.29] p=0.0136 eq2=False
+  extra deploy:G0Vq-G           1.77 [ -0.38,  4.26] p=0.406 eq2=False
+  extra deploy:G0Hq-G           3.23 [  0.94,  5.65] p=0.0318 eq2=False
+  extra deploy:G0V-threshold  -20.73 [-31.87, -9.59] p=0.000952 eq2=False
+  extra deploy:G0Vq-never       3.78 [  1.51,  6.30] p=0.00485 eq2=False
+  extra deploy:G0Hq-never       5.24 [  2.91,  7.80] p=8.37e-05 eq2=False
+  extra deploy:G0Vq-threshold  -24.31 [-34.42,-14.56] p=8.86e-05 eq2=False
+  extra deploy:G0Hq-threshold  -22.84 [-32.64,-13.50] p=0.000123 eq2=False
+  extra place:C-AB2            -0.58 [ -1.97,  0.65] p=0.663 eq2=True
+  extra place:G0V-G0Vq          3.46 [  0.42,  7.31] p=0.104 eq2=False
+  extra place:G0H-G0Hq          2.43 [ -0.21,  5.83] p=0.21 eq2=False
+  extra place:G0Vq-G            1.92 [ -1.14,  5.35] p=0.584 eq2=False
+  extra place:G0Hq-G            2.67 [ -0.17,  5.58] p=0.237 eq2=False
+  extra place:G0Vq-georule    -47.05 [-54.49,-38.99] p=1.86e-09 eq2=False
+  extra place:G0Hq-georule    -46.30 [-53.83,-38.27] p=1.86e-09 eq2=False
+===== R4|B oracle 39.3 comparisons 19
+               AB1_deploy  AB1_place  AB2_deploy  AB2_place  B_deploy  B_place  C_deploy  C_place  G0_deploy  G0_place  G_deploy  G_place   full  georule  never  oracle_deploy  oracle_place  threshold
+regret_deploy        9.77      38.44        0.38      38.43      0.40    38.51      0.38    38.20       0.38     38.41      0.38    38.36  38.95    38.49   0.38           0.00         37.67      10.71
+regret_place       -27.90       0.77      -37.29       0.76    -37.27     0.84    -37.29     0.52     -37.29      0.73    -37.29     0.69   1.28     0.81 -37.29         -37.67          0.00     -26.97
+  deploy:G-C                    0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-B                   -0.02 [ -0.05,  0.00] holm=1 mdd=0.04
+  deploy:AB2-B                 -0.02 [ -0.05,  0.00] holm=1 mdd=0.04
+  deploy:AB1-B                  9.37 [  2.76, 17.59] holm=0.161 mdd=10.61
+  deploy:AB1-C                  9.39 [  2.77, 17.60] holm=0.0977 mdd=10.60
+  deploy:G-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:C-never                0.00 [  0.00,  0.00] holm=1 mdd=0.00
+  deploy:B-never                0.02 [  0.00,  0.05] holm=1 mdd=0.04
+  deploy:G-threshold          -10.33 [-17.23, -4.35] holm=0.00319 mdd=9.14
+  deploy:C-threshold          -10.33 [-17.23, -4.35] holm=0.00319 mdd=9.14
+  deploy:B-threshold          -10.31 [-17.22, -4.33] holm=0.00444 mdd=9.14
+  deploy:AB1-threshold         -0.93 [ -7.04,  6.33] holm=0.214 mdd=9.55
+  place:G-C                     0.16 [ -0.01,  0.38] holm=0.347 mdd=0.28
+  place:C-B                    -0.32 [ -0.64, -0.05] holm=0.606 mdd=0.42
+  place:AB2-B                  -0.08 [ -0.41,  0.21] holm=1 mdd=0.44
+  place:AB1-B                  -0.07 [ -0.30,  0.17] holm=1 mdd=0.33
+  place:B-georule               0.03 [ -0.34,  0.45] holm=1 mdd=0.57
+  place:G0-georule             -0.08 [ -0.30,  0.13] holm=1 mdd=0.31
+  place:B-full                 -0.44 [ -0.81, -0.10] holm=0.827 mdd=0.51
+  extra deploy:C-AB2            0.00 [  0.00,  0.00] p=1 eq2=True
+  extra place:C-AB2            -0.23 [ -0.50,  0.00] p=0.182 eq2=True
+{
+"B|A": {
+"n": 45,
+"J": 28.101169762053694,
+"delay": 28.101169762053694,
+"teth": 1.0438014251555106,
+"d_hv": 13.135100599969132,
+"d_cav": 6.958392146390596,
+"thr": -78.15,
+"n_unfinished": 12.594444444444445
+},
+"B2|A": {
+"n": 42,
+"J": 31.685568010204552,
+"delay": 31.685568010204552,
+"teth": 0.7547016817608274,
+"d_hv": 29.181342269991617,
+"d_cav": 9.498590065863922,
+"thr": -143.14285714285714,
+"n_unfinished": 27.714285714285715
+},
+"R3|A": {
+"n": 45,
+"J": 7.008135639793823,
+"delay": 7.008135639793823,
+"teth": 0.18829857508628717,
+"d_hv": 2.8637683287068447,
+"d_cav": 0.7388049112508106,
+"thr": -16.916666666666668,
+"n_unfinished": 3.05
+},
+"R4|A": {
+"n": 44,
+"J": 15.224232945066428,
+"delay": 15.224232945066428,
+"teth": 0.24679150288118396,
+"d_hv": 17.034587682242346,
+"d_cav": 11.12790245449453,
+"thr": -91.19318181818181,
+"n_unfinished": 7.829545454545454
+},
+"B|B": {
+"n": 14,
+"J": 35.534847334957654,
+"delay": 35.534847334957654,
+"teth": 0.42467726017229246,
+"d_hv": 47.645463495915074,
+"d_cav": 12.585538966714413,
+"thr": -229.55357142857142,
+"n_unfinished": 48.07142857142857
+},
+"B2|B": {
+"n": 13,
+"J": 37.967337004810204,
+"delay": 37.967337004810204,
+"teth": 0.5889719073223975,
+"d_hv": 54.66555363989937,
+"d_cav": 7.147108495836642,
+"thr": -249.69230769230768,
+"n_unfinished": 68.38461538461539
+},
+"R3|B": {
+"n": 12,
+"J": 44.33957482531029,
+"delay": 44.33957482531029,
+"teth": 0.7082932366270175,
+"d_hv": 59.54694998929765,
+"d_cav": 15.13380733470659,
+"thr": -292.875,
+"n_unfinished": 82.25
+},
+"R4|B": {
+"n": 14,
+"J": 20.938727050445575,
+"delay": 20.938727050445575,
+"teth": 0.09293668993344317,
+"d_hv": 28.76776940265381,
+"d_cav": 2.6097253947871186,
+"thr": -139.125,
+"n_unfinished": 32.57142857142857
+}
+}

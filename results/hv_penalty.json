@@ -1,0 +1,42 @@
+{
+ "B|A": {
+  "n": 60,
+  "share_hv_worse": 1.0,
+  "mean_change": 39.891880826280286
+ },
+ "B2|A": {
+  "n": 60,
+  "share_hv_worse": 1.0,
+  "mean_change": 45.88960457351061
+ },
+ "R3|A": {
+  "n": 60,
+  "share_hv_worse": 0.95,
+  "mean_change": 17.287095835625724
+ },
+ "R4|A": {
+  "n": 60,
+  "share_hv_worse": 1.0,
+  "mean_change": 26.76163493061697
+ },
+ "B|B": {
+  "n": 30,
+  "share_hv_worse": 1.0,
+  "mean_change": 58.39604052039767
+ },
+ "B2|B": {
+  "n": 30,
+  "share_hv_worse": 1.0,
+  "mean_change": 63.46235262847642
+ },
+ "R3|B": {
+  "n": 30,
+  "share_hv_worse": 1.0,
+  "mean_change": 64.82120515073423
+ },
+ "R4|B": {
+  "n": 30,
+  "share_hv_worse": 1.0,
+  "mean_change": 47.33927893009038
+ }
+}

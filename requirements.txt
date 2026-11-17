@@ -1,0 +1,10 @@
+eclipse-sumo==1.24.0
+sumolib==1.24.0
+traci==1.24.0
+libsumo==1.24.0
+numpy
+pandas
+pyarrow
+scipy
+matplotlib
+pillow

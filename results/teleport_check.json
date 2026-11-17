@@ -1,0 +1,1586 @@
+[
+ {
+  "site": "A",
+  "layout": "None",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2354,
+   "running": 286,
+   "waiting": 0
+  }
+ },
+ {
+  "site": "A",
+  "layout": "None",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2354,
+   "running": 300,
+   "waiting": 0
+  }
+ },
+ {
+  "site": "A",
+  "layout": "None",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2354,
+   "running": 281,
+   "waiting": 0
+  }
+ },
+ {
+  "site": "A",
+  "layout": "None",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2354,
+   "running": 291,
+   "waiting": 0
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 40.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2247,
+   "running": 406,
+   "waiting": 107
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 40.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2239,
+   "running": 396,
+   "waiting": 115
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 40.0}",
+  "seed": 6,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2253,
+   "running": 388,
+   "waiting": 101
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 40.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2253,
+   "running": 395,
+   "waiting": 101
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 80.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2247,
+   "running": 406,
+   "waiting": 107
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 80.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2247,
+   "running": 406,
+   "waiting": 107
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 80.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2243,
+   "running": 378,
+   "waiting": 111
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 80.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2257,
+   "running": 385,
+   "waiting": 97
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 120.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2229,
+   "running": 384,
+   "waiting": 125
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 120.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2235,
+   "running": 379,
+   "waiting": 119
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 120.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2249,
+   "running": 379,
+   "waiting": 105
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 120.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2242,
+   "running": 383,
+   "waiting": 112
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 160.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2244,
+   "running": 367,
+   "waiting": 110
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 160.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2251,
+   "running": 371,
+   "waiting": 103
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 160.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2279,
+   "running": 393,
+   "waiting": 75
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 160.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2264,
+   "running": 402,
+   "waiting": 90
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 200.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2246,
+   "running": 360,
+   "waiting": 108
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 200.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2231,
+   "running": 332,
+   "waiting": 123
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 200.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2269,
+   "running": 352,
+   "waiting": 85
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -130.0, 'g': 200.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2253,
+   "running": 368,
+   "waiting": 101
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 40.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2244,
+   "running": 438,
+   "waiting": 110
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 40.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2248,
+   "running": 391,
+   "waiting": 106
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 40.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2230,
+   "running": 391,
+   "waiting": 124
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 40.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2237,
+   "running": 377,
+   "waiting": 117
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 80.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2220,
+   "running": 398,
+   "waiting": 134
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 80.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2240,
+   "running": 392,
+   "waiting": 114
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 80.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2225,
+   "running": 368,
+   "waiting": 129
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 80.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2252,
+   "running": 395,
+   "waiting": 102
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 120.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2271,
+   "running": 430,
+   "waiting": 83
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 120.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2250,
+   "running": 386,
+   "waiting": 104
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 120.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2241,
+   "running": 364,
+   "waiting": 113
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 120.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2244,
+   "running": 394,
+   "waiting": 110
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 160.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2268,
+   "running": 398,
+   "waiting": 86
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 160.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2257,
+   "running": 363,
+   "waiting": 97
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 160.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2256,
+   "running": 374,
+   "waiting": 98
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 160.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2258,
+   "running": 396,
+   "waiting": 96
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 200.0}",
+  "seed": 4,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2251,
+   "running": 358,
+   "waiting": 103
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 200.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2255,
+   "running": 368,
+   "waiting": 99
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 200.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2246,
+   "running": 334,
+   "waiting": 108
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -90.0, 'g': 200.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2230,
+   "running": 343,
+   "waiting": 124
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 40.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2233,
+   "running": 436,
+   "waiting": 121
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 40.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2240,
+   "running": 415,
+   "waiting": 114
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 40.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2209,
+   "running": 386,
+   "waiting": 145
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 40.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2222,
+   "running": 411,
+   "waiting": 132
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 80.0}",
+  "seed": 4,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2237,
+   "running": 439,
+   "waiting": 117
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 80.0}",
+  "seed": 5,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2223,
+   "running": 397,
+   "waiting": 131
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 80.0}",
+  "seed": 6,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2209,
+   "running": 373,
+   "waiting": 145
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 80.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2230,
+   "running": 389,
+   "waiting": 124
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 120.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2255,
+   "running": 418,
+   "waiting": 99
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 120.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2242,
+   "running": 425,
+   "waiting": 112
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 120.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2232,
+   "running": 395,
+   "waiting": 122
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 120.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2240,
+   "running": 399,
+   "waiting": 114
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 160.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2248,
+   "running": 418,
+   "waiting": 106
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 160.0}",
+  "seed": 5,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2248,
+   "running": 402,
+   "waiting": 106
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 160.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2254,
+   "running": 410,
+   "waiting": 100
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 160.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2250,
+   "running": 416,
+   "waiting": 104
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 200.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2225,
+   "running": 352,
+   "waiting": 129
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 200.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2243,
+   "running": 383,
+   "waiting": 111
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 200.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2239,
+   "running": 360,
+   "waiting": 115
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -50.0, 'g': 200.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2247,
+   "running": 389,
+   "waiting": 107
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 40.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2224,
+   "running": 495,
+   "waiting": 130
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 40.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2228,
+   "running": 464,
+   "waiting": 126
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 40.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2224,
+   "running": 468,
+   "waiting": 130
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 40.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2214,
+   "running": 487,
+   "waiting": 140
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 80.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2238,
+   "running": 498,
+   "waiting": 116
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 80.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2255,
+   "running": 491,
+   "waiting": 99
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 80.0}",
+  "seed": 6,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2236,
+   "running": 487,
+   "waiting": 118
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 80.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2230,
+   "running": 488,
+   "waiting": 124
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 120.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2224,
+   "running": 480,
+   "waiting": 130
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 120.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2234,
+   "running": 467,
+   "waiting": 120
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 120.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2224,
+   "running": 465,
+   "waiting": 130
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 120.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2233,
+   "running": 495,
+   "waiting": 121
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 160.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2236,
+   "running": 456,
+   "waiting": 118
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 160.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2232,
+   "running": 429,
+   "waiting": 122
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 160.0}",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2232,
+   "running": 440,
+   "waiting": 122
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 160.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2222,
+   "running": 446,
+   "waiting": 132
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 200.0}",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2225,
+   "running": 454,
+   "waiting": 129
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 200.0}",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2218,
+   "running": 447,
+   "waiting": 136
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 200.0}",
+  "seed": 6,
+  "teleports": 1,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2225,
+   "running": 441,
+   "waiting": 129
+  }
+ },
+ {
+  "site": "A",
+  "layout": "{'e': -10.0, 'g': 200.0}",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2354,
+   "inserted": 2220,
+   "running": 409,
+   "waiting": 134
+  }
+ },
+ {
+  "site": "B",
+  "layout": "None",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2796,
+   "running": 441,
+   "waiting": 89
+  }
+ },
+ {
+  "site": "B",
+  "layout": "None",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2810,
+   "running": 430,
+   "waiting": 75
+  }
+ },
+ {
+  "site": "B",
+  "layout": "None",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2751,
+   "running": 428,
+   "waiting": 134
+  }
+ },
+ {
+  "site": "B",
+  "layout": "None",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2821,
+   "running": 428,
+   "waiting": 64
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-325.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2494,
+   "running": 415,
+   "waiting": 391
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-325.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2523,
+   "running": 461,
+   "waiting": 362
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-325.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2483,
+   "running": 452,
+   "waiting": 402
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-325.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2511,
+   "running": 438,
+   "waiting": 374
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-275.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2506,
+   "running": 439,
+   "waiting": 379
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-275.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2541,
+   "running": 474,
+   "waiting": 344
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-275.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2484,
+   "running": 425,
+   "waiting": 401
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-275.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2527,
+   "running": 463,
+   "waiting": 358
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-225.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2503,
+   "running": 433,
+   "waiting": 382
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-225.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2536,
+   "running": 457,
+   "waiting": 349
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-225.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2482,
+   "running": 409,
+   "waiting": 403
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-225.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2443,
+   "running": 486,
+   "waiting": 442
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-175.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2501,
+   "running": 421,
+   "waiting": 384
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-175.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2563,
+   "running": 472,
+   "waiting": 322
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-175.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2489,
+   "running": 420,
+   "waiting": 396
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-175.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2541,
+   "running": 469,
+   "waiting": 344
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-125.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2500,
+   "running": 437,
+   "waiting": 385
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-125.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2572,
+   "running": 467,
+   "waiting": 313
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-125.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2485,
+   "running": 414,
+   "waiting": 400
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-125.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2525,
+   "running": 444,
+   "waiting": 360
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-75.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2506,
+   "running": 431,
+   "waiting": 379
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-75.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2558,
+   "running": 466,
+   "waiting": 327
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-75.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2486,
+   "running": 403,
+   "waiting": 399
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-75.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2528,
+   "running": 448,
+   "waiting": 357
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-25.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2505,
+   "running": 432,
+   "waiting": 380
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-25.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2576,
+   "running": 480,
+   "waiting": 309
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-25.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2500,
+   "running": 452,
+   "waiting": 385
+  }
+ },
+ {
+  "site": "B",
+  "layout": "-25.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2528,
+   "running": 465,
+   "waiting": 357
+  }
+ },
+ {
+  "site": "B",
+  "layout": "25.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2494,
+   "running": 513,
+   "waiting": 391
+  }
+ },
+ {
+  "site": "B",
+  "layout": "25.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2582,
+   "running": 471,
+   "waiting": 303
+  }
+ },
+ {
+  "site": "B",
+  "layout": "25.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2490,
+   "running": 448,
+   "waiting": 395
+  }
+ },
+ {
+  "site": "B",
+  "layout": "25.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2542,
+   "running": 484,
+   "waiting": 343
+  }
+ },
+ {
+  "site": "B",
+  "layout": "75.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2516,
+   "running": 441,
+   "waiting": 369
+  }
+ },
+ {
+  "site": "B",
+  "layout": "75.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2594,
+   "running": 501,
+   "waiting": 291
+  }
+ },
+ {
+  "site": "B",
+  "layout": "75.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2501,
+   "running": 441,
+   "waiting": 384
+  }
+ },
+ {
+  "site": "B",
+  "layout": "75.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2558,
+   "running": 472,
+   "waiting": 327
+  }
+ },
+ {
+  "site": "B",
+  "layout": "125.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2510,
+   "running": 451,
+   "waiting": 375
+  }
+ },
+ {
+  "site": "B",
+  "layout": "125.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2584,
+   "running": 504,
+   "waiting": 301
+  }
+ },
+ {
+  "site": "B",
+  "layout": "125.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2510,
+   "running": 452,
+   "waiting": 375
+  }
+ },
+ {
+  "site": "B",
+  "layout": "125.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2564,
+   "running": 484,
+   "waiting": 321
+  }
+ },
+ {
+  "site": "B",
+  "layout": "175.0",
+  "seed": 4,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2517,
+   "running": 446,
+   "waiting": 368
+  }
+ },
+ {
+  "site": "B",
+  "layout": "175.0",
+  "seed": 5,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2577,
+   "running": 493,
+   "waiting": 308
+  }
+ },
+ {
+  "site": "B",
+  "layout": "175.0",
+  "seed": 6,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2498,
+   "running": 436,
+   "waiting": 387
+  }
+ },
+ {
+  "site": "B",
+  "layout": "175.0",
+  "seed": 7,
+  "teleports": 0,
+  "stats": {
+   "loaded": 2885,
+   "inserted": 2534,
+   "running": 477,
+   "waiting": 351
+  }
+ }
+]
