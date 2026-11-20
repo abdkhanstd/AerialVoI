@@ -77,13 +77,16 @@ python geotz/mechanism.py              # WB DL penalty, seed-half steps         
 python geotz/cheap_queue.py            # downstream queue from video without calibration -> results/cheap_queue.json
 python geotz/hv_penalty.py             # human-driver delay under the best DL    -> results/hv_penalty.json
 python geotz/allred_check.py           # check without the 1 s all-red interval  -> results/allred_check.json
+python geotz/allred_check2.py          # second check: downstream-signal planners, C, B-b -> results/allred_check2.json
+python geotz/allred_check2_report.py   # compact printout of the second check
 python geotz/check_teleports.py 40     # teleports in the most congested scenario
 python geotz/figs_data.py              # data and model figures   (written to figs/)
 python geotz/figs_voi.py               # result figures           (written to figs/)
 ```
 
 `grid.py` is resumable (one JSON file per run, finished runs are skipped) and can be sharded across machines with a
-third argument `k/K`. `collect.py` merges result folders from several machines.
+third argument `k/K`. `collect.py` merges result folders from several machines. It keeps only the seeds in
+`GEOTZ_SEEDS` (default 0-7), so collect the grids of seeds 8-11 with `GEOTZ_SEEDS=8,9,10,11`.
 
 ## Model levels and grids
 
@@ -94,24 +97,24 @@ netconvert inserts at the site A junction in some layouts (grids with suffix `n`
 | Level | Information | Grids (site A) | Grids (site B) |
 |---|---|---|---|
 | G0 | imagery only, demand from lane-count capacity at v/c 0.75, generic 120 s signal | G0, G0s, G0n | G0 |
-| G0V | imagery + observed total volume, generic 120 s signal | G0V, G0Vs | |
-| G0H, G0F | imagery, capacity default at v/c 0.9 / 1.0, generic signal | G0H(s), G0F(s) | |
+| G0V | imagery + observed total volume, generic 120 s signal | G0V, G0Vs, G0Vn(s) | |
+| G0H, G0F | imagery, capacity default at v/c 0.9 / 1.0, generic signal | G0H(s), G0Hn(s), G0F(s) | |
 | G | imagery + observed total volume, observed cycle with equal split | G3, G3s, G3n | G3 |
-| C | + movement counts and observed signal plan | C3, C3s, C3n | C3 |
+| C | + movement counts and observed signal plan | C3, C3s, C3n, C3ns | C3 |
 | B | + trajectory layer (downstream queue and calibrated behaviour); reference B | v3, v3s, v3n | v3 |
 | B2 | second-best calibration; reference B' | B23, B23n | B23 |
 | R3, R4 | references selected in the leave-one-recording-out calibration | R3, R4, R3n, R4n | R3, R4 |
 | AB1 | B without the downstream queue | AB1 | AB1 |
 | AB1g, AB1e | AB1 with only the calibrated time gap / only random entry lanes | AB1g, AB1e | |
-| AB2 | B without calibrated behaviour | AB2, AB2s | AB2 |
-| G0Vq, G0Hq | G0V / G0H + the calibrated downstream queue | G0Vq(s), G0Hq(s) | |
-| G0Vc, G0Vk | G0V + downstream signal with green from counts / from edge density and speed | G0Vc(s), G0Vk(s) | |
-| G0Vg, G0Vo | G0V + counts green in the generic 120 s cycle, at offset 0 / 60 s | G0Vg(s), G0Vo(s) | |
-| G0Vx | G0V + downstream signal with the generic green of the planner's own signal | G0Vx(s) | |
+| AB2 | B without calibrated behaviour | AB2, AB2s, AB2n(s) | AB2 |
+| G0Vq, G0Hq | G0V / G0H + the calibrated downstream queue | G0Vq(s), G0Hq(s), G0Vqn(s), G0Hqn(s) | |
+| G0Vc, G0Vk | G0V + downstream signal with green from counts / from edge density and speed | G0Vc(s), G0Vcn(s), G0Vk(s) | |
+| G0Vg, G0Vo | G0V + counts green in the generic 120 s cycle, at offset 0 / 60 s | G0Vg(s), G0Vo(s), G0Vgn(s), G0Von(s) | |
+| G0Vx | G0V + downstream signal with the generic green of the planner's own signal | G0Vx(s), G0Vxn(s) | |
 
 Each site A grid covers 20 layouts plus no DL, the six CAV penetrations 0.1 to 0.6, the demand factors and platoon
 sizes of the design, for its seeds. The reference B grids also hold the extension to penetrations 0.7 and 0.8.
-The 52 grids in `results/` hold 128,328 runs.
+The 71 grids in `results/` hold 176,208 runs.
 
 ## Results
 
